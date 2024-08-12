@@ -21,10 +21,10 @@ body, html {
   text-align: center;
   font-weight: bold;
   font-size: 24px;
-  position: fixed;
   width: 100%;
-  top: 0;
   z-index: 1000;
+  /* Cambia position fixed por static */
+  position: static;
 }
 
 p {
@@ -33,17 +33,16 @@ p {
 }
 
 .navBar {
-  overflow-y: hidden;
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 22px;
   height: 120px;
-  margin-top: 80px;
   width: 100%;
   box-sizing: border-box;
-  position: fixed;
+  /* Cambia position fixed por static */
+  position: static;
   z-index: 100;
 }
 
@@ -123,14 +122,13 @@ p {
 }
 
 @media (max-width: 932px) {
+  .user-icon {
+    display: none;
+  }
 
-.user-icon {
-  display: none;
-}
-
-.search-icon {
-position: relative;
-z-index: 1;
-left: -430px;
-}
+  .search-icon {
+    position: relative;
+    z-index: 1;
+    left: -430px;
+  }
 }
