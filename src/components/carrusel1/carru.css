@@ -1,0 +1,56 @@
+.carousel-container {
+    overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+    overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  margin-top: 85px;
+}
+
+.carousel-slides {
+    overflow-y: hidden;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.poster {
+    overflow-y: hidden;
+  min-width: 100%;
+  height:fit-content;
+  object-fit: contain;
+}
+
+.carousel-button {
+    overflow-y: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 24px;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -4,6 +4,8 @@ import './barra.css';
 function BarraNav() {
   return (
     <>
+
+    <div className='barras'>
       <div className="barra">
         TRY OUR SAMPLES FOR FREE!
       </div>
@@ -43,6 +45,7 @@ function BarraNav() {
           </svg>
         </div>
 
+      </div>
       </div>
     </>
   );
