@@ -12,7 +12,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    box-sizing: border-box; 
   }
 
 .barra {
@@ -45,6 +45,7 @@ p {
     margin-top: 80px; 
     width: 100%;
     box-sizing: border-box;
+    position: fixed;
 }
 
 .logo {
