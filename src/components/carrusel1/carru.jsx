@@ -35,13 +35,10 @@ function CarruselOne() {
       }
     };
 
-    // Set initial images based on window size
     handleResize();
 
-    // Add event listener
     window.addEventListener('resize', handleResize);
 
-    // Clean up the event listener
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
