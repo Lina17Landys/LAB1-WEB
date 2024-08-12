@@ -1,9 +1,10 @@
-import './App.css'
-//este es un "componente"
+//import './App.css'
+import { useState } from "react"
+import BarraNav from "./components/barra/barra"
 function App() {
   return (
    <>
-   <h1>Hola</h1>
+   <BarraNav/>
    </>
   )
 }
