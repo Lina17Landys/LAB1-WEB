@@ -8,7 +8,7 @@ function App() {
    <>
    <BarraNav/>
    <CarruselOne/>
-   <FotosCont/>
+   <center><FotosCont/></center>
    </>
   )
 }
