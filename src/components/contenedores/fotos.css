@@ -68,8 +68,36 @@ body {
 }
 
 @media (max-width: 1180px) {
-  
+  .container {
+    width: 60%; 
+    margin-right: 400px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    max-width: 1000px; 
+  }
+
+  .big img {
+    width: 640px;
+    height: 370px;
+  }
+
+  .small img {
+    width: 300px; 
+    height: 200px;
+  }
+
+  .medium img,
+  .medium .newpic {
+    width: 500px;
+    height: auto;
+  }
+
+  .medium .newpic {
+    width: 550px;
+    height: 295px;
+  }
 }
+
 
 @media (max-width: 932px) {
   
