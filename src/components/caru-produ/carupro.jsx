@@ -4,64 +4,64 @@ import './carupro.css';
 const products = [
   {
     src: "./src/img/chanclas-down.webp",
-    title: "Chanclas Down",
-    price: "$19.99",
+    title: "Eshi-Sama Slides",
+    price: "$24.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/chibi-shibuya-shaker-front.webp",
-    title: "Chibi Shibuya Shaker",
-    price: "$25.99",
+    title: "Waifu Cups X Kaho Shibuya: Chibi Shibuya",
+    price: "$24.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/goof-juice-front.webp",
-    title: "Goof Juice",
-    price: "$14.99",
+    title: "Goof Juice - 100 Servings",
+    price: "$39.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/retro-kaho-lunchbox-front.webp",
     title: "Retro Kaho Lunchbox",
-    price: "$29.99",
+    price: "$24.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/sil-sweatpants-front.webp",
-    title: "Sil Sweatpants",
+    title: "Silvervale Sweatpants",
     price: "$39.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/silv-hoodie-front.webp",
-    title: "Silv Hoodie",
-    price: "$49.99",
+    title: "Silvervale Hoodieie",
+    price: "$59.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/silvervale-front.webp",
-    title: "Silvervale",
-    price: "$34.99",
+    title: "Silvervale V2 Shirt",
+    price: "$24.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/waifu-candy.webp",
-    title: "Waifu Candy",
-    price: "$9.99",
+    title: "Waifu Candy - 100 servings",
+    price: "$39.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
   {
     src: "./src/img/breadbox-front.webp",
-    title: "Breadbox",
-    price: "$24.99",
+    title: "Silvervale Bread Box",
+    price: "$49.99",
     description: "*Price may be VAT inclusive",
     reviews: 0
   },
