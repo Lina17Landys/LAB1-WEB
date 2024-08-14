@@ -8,7 +8,6 @@ body {
   align-items: center;
   overflow-x: hidden;
   justify-content: center; 
-  align-items: center;
 }
 
 .container {
@@ -74,6 +73,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px; 
     max-width: 1000px; 
+    margin-top: 5px;
   }
 
   .big img {
@@ -86,35 +86,57 @@ body {
     height: 220px;
   }
 
-
   .medium img {
-    width: 550px;
+    width: 530px;
     height: 500px;
     border-radius: 20px;
   }
 
-
  .newpic {
-    width: 500px;
+    width: 530px;
     height: auto;
   }
 
   .medium .newpic {
-    width: 550px;
+    width: 530px;
     height: 280px;
   }
 }
-
 
 @media (max-width: 932px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "big"
+      "big1"
       "small"
-      "medium";
+      "medium1"
+      "big2"
+      "newpic";
     margin-right: 0;
+    margin-top: 40px;
     justify-items: center;
+  }
+
+  .big {
+    grid-area: big1;
+  }
+
+  .big:nth-child(4) {
+    grid-area: big2;
+  }
+
+  .small {
+    grid-area: small;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .medium {
+    grid-area: medium1;
+  }
+
+  .medium .newpic {
+    grid-area: newpic;
   }
 
   .big img,
@@ -122,10 +144,5 @@ body {
   .medium img {
     width: 100%;
     height: auto;
-  }
-
-  .small {
-    flex-direction: column;
-    gap: 20px;
   }
 }
