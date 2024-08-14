@@ -77,24 +77,31 @@ body {
   }
 
   .big img {
-    width: 640px;
-    height: 370px;
+    width: 540px;
+    height: 510px;
   }
 
   .small img {
-    width: 300px; 
-    height: 200px;
+    width: 250px; 
+    height: 220px;
   }
 
-  .medium img,
-  .medium .newpic {
+
+  .medium img {
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+  }
+
+
+ .newpic {
     width: 500px;
     height: auto;
   }
 
   .medium .newpic {
     width: 550px;
-    height: 295px;
+    height: 280px;
   }
 }
 
