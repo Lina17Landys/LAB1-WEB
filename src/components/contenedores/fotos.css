@@ -107,5 +107,25 @@ body {
 
 
 @media (max-width: 932px) {
-  
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "big"
+      "small"
+      "medium";
+    margin-right: 0;
+    justify-items: center;
+  }
+
+  .big img,
+  .small img,
+  .medium img {
+    width: 100%;
+    height: auto;
+  }
+
+  .small {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
