@@ -59,10 +59,10 @@
 }
 
 .carousel-productos {
-    position: relative;
-    width: calc(100% - 250px); 
-    margin: 0 auto; 
-    overflow: hidden;
+  position: relative;
+  width: calc(100% - 250px);
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .carousel-container {
@@ -73,7 +73,7 @@
 }
 
 .carousel-item {
-  flex: 1 0 25%; 
+  flex: 1 0 25%;
   max-width: 25%;
   box-sizing: border-box;
   padding: 0 10px;
@@ -88,8 +88,10 @@
 }
 
 .card img {
+  display: block;
   width: 100%;
   height: auto;
+  transition: opacity 0.3s ease;
 }
 
 .card-content {
@@ -124,8 +126,8 @@
 }
 
 h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
 }
 
 .no-reviews {
@@ -134,28 +136,28 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 .carousel-control {
-    position: absolute;
-    top: 670px;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1000;
-    border-radius: 50%;
-  }
-  
-  .carousel-control svg {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .carousel-control.prev {
-    right: 50px; 
-    margin-right: 20px;
-  }
-  
-  .carousel-control.next {
-    right: 10px;
-  }
+  position: absolute;
+  top: 670px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 50%;
+}
+
+.carousel-control svg {
+  width: 24px;
+  height: 24px;
+}
+
+.carousel-control.prev {
+  right: 50px;
+  margin-right: 20px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
