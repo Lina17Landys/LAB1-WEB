@@ -34,6 +34,7 @@ body {
   height: 580px;
   margin-bottom: 10px;
   border-radius: 20px;
+  transition: transform 0.3s ease;
 }
 
 .small {
@@ -46,6 +47,7 @@ body {
   width: 410px;
   height: 270px;
   border-radius: 20px;
+  transition: transform 0.3s ease;
 }
 
 .medium {
@@ -59,11 +61,19 @@ body {
   width: 850px;
   height: auto;
   border-radius: 20px;
+  transition: transform 0.3s ease;
 }
 
 .medium .newpic {
   width: 850px;
   height: 295px;
+  transition: transform 0.3s ease;
+}
+
+.big img:hover,
+.small img:hover,
+.medium img:hover {
+  transform: scale(1.05); 
 }
 
 @media (max-width: 1180px) {
