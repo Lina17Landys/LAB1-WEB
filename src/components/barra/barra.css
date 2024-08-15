@@ -41,7 +41,6 @@ p {
   height: 120px;
   width: 100%;
   box-sizing: border-box;
-  /* Cambia position fixed por static */
   position: static;
   z-index: 100;
 }
