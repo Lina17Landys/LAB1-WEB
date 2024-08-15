@@ -3,52 +3,52 @@ import './testimonio.css';
 
 const opinions = [
     {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Awesome cup",
+        text: "The cup that I ordered looked so amazing and can’t wait to buy more!!!!",
+        name: "Evan Richard",
         src: "./src/img/mini.avif",
 
     },
     {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Delicious",
+        text: "One of the best tasting drinks I have ever had. Tastes exactly like a cherry slushy and you don't even notice the lack of sugar! Definitely will continue to buy.",
+        name: "Nex Harrison",
         src: "./src/img/mini2.png",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Surprisingly good!!",
+        text: "Wonderfully sweet without a “medicine” taste. Definitely in the top 10 flavors on offer.",
+        name: "Jason Momoa",
         src: "./src/img/mini3.avif",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Strawberry goodness",
+        text: "Such a absolutely good flavor to have added to my collection with its excellent tart flavor profile would recommend",
+        name: "Revanous",
         src: "./src/img/mini4.avif",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Amazing Flavour",
+        text: " love the flavour of guacamole gamer farts and the intricate designs on the tub. Having a drink that is closely related to one of my favourite creators is so cool and really looks good with my waifu cup",
+        name: "John Doe",
         src: "./src/img/mini5.avif",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "It's nice",
+        text: "The cup is great and the insert really helps break up any of the mix. I’ve had no issues with drinking small chunks after mixing like some other cups I’ve had. The free flavors were good just need to order more or this will be mainly for water",
+        name: "J",
         src: "./src/img/mini6.avif",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Awesome cup",
+        text: "The cup that I ordered looked so amazing and can’t wait to buy more!!!!",
+        name: "David F",
         src: "./src/img/mini7.avif",
 
     }, {
-        title: "Eshi-Sama Slides",
-        text: "hola",
-        name: "pepe",
+        title: "Delicious",
+        text: "One of the best tasting drinks I have ever had. Tastes exactly like a cherry slushy and you don't even notice the lack of sugar! Definitely will continue to buy.",
+        name: "Richard",
         src: "./src/img/mini8.avif",
 
     },

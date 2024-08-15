@@ -25,7 +25,7 @@
 .carrusel {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     overflow-x: hidden;
     margin-bottom: 50px;
 }
