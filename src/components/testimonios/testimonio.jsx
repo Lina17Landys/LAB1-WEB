@@ -58,11 +58,11 @@ function Testimonios() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 3) % opinions.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % opinions.length);
     };
 
     const handlePrev = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 3 + opinions.length) % opinions.length);
+        setCurrentIndex((prevIndex) => (prevIndex - 2 + opinions.length) % opinions.length);
     };
 
     const visibleOpinions = [
@@ -100,7 +100,7 @@ function Testimonios() {
                                 </div>
                                 <h2>{opinion.title}</h2>
                                 <p>{opinion.text}</p>
-                                <p>- {opinion.name}</p>
+                                <p className='nombre'>{opinion.name}</p>
                                 <img src={opinion.src} alt={opinion.title} />
                             </div>
                         ))}
