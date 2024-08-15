@@ -16,6 +16,7 @@
     height: calc(70vh - 40px);
     padding: 20px;
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
     gap: 30px;
     align-items: center; 
@@ -55,4 +56,59 @@ p {
     font-weight: normal;
     font-size: 24px;
     margin: 0;
+}
+
+@media (max-width: 1180px) {
+    .info-conteiner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carousel-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .carousel-control {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: #333;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .prev {
+        align-self: flex-start;
+    }
+
+    .next {
+        align-self: flex-end;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    .info-conteiner > div {
+        display: none;
+    }
+
+    .info-conteiner > div:nth-child(1) {
+        display: block;
+    }
+
+    .info-conteiner > div:nth-child(2) {
+        display: none;
+    }
+
+    .info-conteiner > div:nth-child(3) {
+        display: none;
+    }
+
+    .info-conteiner > div.active {
+        display: block;
+    }
 }
