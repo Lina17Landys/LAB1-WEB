@@ -5,6 +5,7 @@ import CarruselOne from "./components/carrusel1/carru"
 import FotosCont from "./components/contenedores/fotos"
 import Productos from "./components/caru-produ/carupro"
 import VideoComponent from "./components/videoComp/vid"
+import Info from "./components/section info/info"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
    <center><FotosCont/></center>
    <Productos/>
    <VideoComponent/>
+   <Info/>
    </>
   )
 }
