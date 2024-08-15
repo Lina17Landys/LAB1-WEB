@@ -1,0 +1,16 @@
+.testimonio-header {
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 60px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0; 
+}
+
+.stars svg {
+    margin: 0 5px; 
+}
