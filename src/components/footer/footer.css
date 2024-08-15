@@ -1,0 +1,19 @@
+footer {
+    background-color: black;
+}
+
+.columnas p {
+    color: rgb(152, 150, 150);
+    transition: .5s;
+}
+.columnas h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.columnas p:hover { color: white; }
+
+.columnas {
+    column-count: 4;
+    height: 900px;
+}

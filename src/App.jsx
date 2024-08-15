@@ -8,6 +8,7 @@ import VideoComponent from "./components/videoComp/vid"
 import Info from "./components/section info/info"
 import BannerImg from "./components/imagen-banner/banner"
 import Testimonio from "./components/testimonios/testimonio"
+import Footer from "./components/footer/footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
    <Info/>
    <BannerImg/>
    <Testimonio/>
+   <Footer/>
    </>
   )
 }

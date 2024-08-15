@@ -23,7 +23,6 @@ body, html {
   font-size: 24px;
   width: 100%;
   z-index: 1000;
-  /* Cambia position fixed por static */
   position: static;
 }
 
