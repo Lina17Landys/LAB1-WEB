@@ -6,6 +6,7 @@ import FotosCont from "./components/contenedores/fotos"
 import Productos from "./components/caru-produ/carupro"
 import VideoComponent from "./components/videoComp/vid"
 import Info from "./components/section info/info"
+import BannerImg from "./components/imagen-banner/banner"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
    <Productos/>
    <VideoComponent/>
    <Info/>
+   <BannerImg/>
    </>
   )
 }
